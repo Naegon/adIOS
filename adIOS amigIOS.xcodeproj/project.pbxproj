@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA9C88B72602012F001D93C6 /* adIOS_amigIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C88B62602012F001D93C6 /* adIOS_amigIOSApp.swift */; };
+		CA9C88B92602012F001D93C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C88B82602012F001D93C6 /* ContentView.swift */; };
+		CA9C88BB26020131001D93C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9C88BA26020131001D93C6 /* Assets.xcassets */; };
+		CA9C88BE26020131001D93C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9C88BD26020131001D93C6 /* Preview Assets.xcassets */; };
+		CA9C88C926020132001D93C6 /* adIOS_amigIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C88C826020132001D93C6 /* adIOS_amigIOSTests.swift */; };
+		CA9C88D426020132001D93C6 /* adIOS_amigIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C88D326020132001D93C6 /* adIOS_amigIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA9C88C526020132001D93C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA9C88AB2602012F001D93C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9C88B22602012F001D93C6;
+			remoteInfo = "adIOS amigIOS";
+		};
+		CA9C88D026020132001D93C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA9C88AB2602012F001D93C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9C88B22602012F001D93C6;
+			remoteInfo = "adIOS amigIOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA9C88B32602012F001D93C6 /* adIOS amigIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "adIOS amigIOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9C88B62602012F001D93C6 /* adIOS_amigIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adIOS_amigIOSApp.swift; sourceTree = "<group>"; };
+		CA9C88B82602012F001D93C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA9C88BA26020131001D93C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA9C88BD26020131001D93C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA9C88BF26020131001D93C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9C88C426020132001D93C6 /* adIOS amigIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "adIOS amigIOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9C88C826020132001D93C6 /* adIOS_amigIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adIOS_amigIOSTests.swift; sourceTree = "<group>"; };
+		CA9C88CA26020132001D93C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9C88CF26020132001D93C6 /* adIOS amigIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "adIOS amigIOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9C88D326020132001D93C6 /* adIOS_amigIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adIOS_amigIOSUITests.swift; sourceTree = "<group>"; };
+		CA9C88D526020132001D93C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA9C88B02602012F001D93C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9C88C126020132001D93C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9C88CC26020132001D93C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA9C88AA2602012F001D93C6 = {
+			isa = PBXGroup;
+			children = (
+				CA9C88B52602012F001D93C6 /* adIOS amigIOS */,
+				CA9C88C726020132001D93C6 /* adIOS amigIOSTests */,
+				CA9C88D226020132001D93C6 /* adIOS amigIOSUITests */,
+				CA9C88B42602012F001D93C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA9C88B42602012F001D93C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA9C88B32602012F001D93C6 /* adIOS amigIOS.app */,
+				CA9C88C426020132001D93C6 /* adIOS amigIOSTests.xctest */,
+				CA9C88CF26020132001D93C6 /* adIOS amigIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA9C88B52602012F001D93C6 /* adIOS amigIOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA9C88B62602012F001D93C6 /* adIOS_amigIOSApp.swift */,
+				CA9C88B82602012F001D93C6 /* ContentView.swift */,
+				CA9C88BA26020131001D93C6 /* Assets.xcassets */,
+				CA9C88BF26020131001D93C6 /* Info.plist */,
+				CA9C88BC26020131001D93C6 /* Preview Content */,
+			);
+			path = "adIOS amigIOS";
+			sourceTree = "<group>";
+		};
+		CA9C88BC26020131001D93C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA9C88BD26020131001D93C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA9C88C726020132001D93C6 /* adIOS amigIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA9C88C826020132001D93C6 /* adIOS_amigIOSTests.swift */,
+				CA9C88CA26020132001D93C6 /* Info.plist */,
+			);
+			path = "adIOS amigIOSTests";
+			sourceTree = "<group>";
+		};
+		CA9C88D226020132001D93C6 /* adIOS amigIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA9C88D326020132001D93C6 /* adIOS_amigIOSUITests.swift */,
+				CA9C88D526020132001D93C6 /* Info.plist */,
+			);
+			path = "adIOS amigIOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA9C88B22602012F001D93C6 /* adIOS amigIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9C88D826020132001D93C6 /* Build configuration list for PBXNativeTarget "adIOS amigIOS" */;
+			buildPhases = (
+				CA9C88AF2602012F001D93C6 /* Sources */,
+				CA9C88B02602012F001D93C6 /* Frameworks */,
+				CA9C88B12602012F001D93C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "adIOS amigIOS";
+			productName = "adIOS amigIOS";
+			productReference = CA9C88B32602012F001D93C6 /* adIOS amigIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA9C88C326020132001D93C6 /* adIOS amigIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9C88DB26020132001D93C6 /* Build configuration list for PBXNativeTarget "adIOS amigIOSTests" */;
+			buildPhases = (
+				CA9C88C026020132001D93C6 /* Sources */,
+				CA9C88C126020132001D93C6 /* Frameworks */,
+				CA9C88C226020132001D93C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA9C88C626020132001D93C6 /* PBXTargetDependency */,
+			);
+			name = "adIOS amigIOSTests";
+			productName = "adIOS amigIOSTests";
+			productReference = CA9C88C426020132001D93C6 /* adIOS amigIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA9C88CE26020132001D93C6 /* adIOS amigIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9C88DE26020132001D93C6 /* Build configuration list for PBXNativeTarget "adIOS amigIOSUITests" */;
+			buildPhases = (
+				CA9C88CB26020132001D93C6 /* Sources */,
+				CA9C88CC26020132001D93C6 /* Frameworks */,
+				CA9C88CD26020132001D93C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA9C88D126020132001D93C6 /* PBXTargetDependency */,
+			);
+			name = "adIOS amigIOSUITests";
+			productName = "adIOS amigIOSUITests";
+			productReference = CA9C88CF26020132001D93C6 /* adIOS amigIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA9C88AB2602012F001D93C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CA9C88B22602012F001D93C6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					CA9C88C326020132001D93C6 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CA9C88B22602012F001D93C6;
+					};
+					CA9C88CE26020132001D93C6 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CA9C88B22602012F001D93C6;
+					};
+				};
+			};
+			buildConfigurationList = CA9C88AE2602012F001D93C6 /* Build configuration list for PBXProject "adIOS amigIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA9C88AA2602012F001D93C6;
+			productRefGroup = CA9C88B42602012F001D93C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA9C88B22602012F001D93C6 /* adIOS amigIOS */,
+				CA9C88C326020132001D93C6 /* adIOS amigIOSTests */,
+				CA9C88CE26020132001D93C6 /* adIOS amigIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA9C88B12602012F001D93C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9C88BE26020131001D93C6 /* Preview Assets.xcassets in Resources */,
+				CA9C88BB26020131001D93C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9C88C226020132001D93C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9C88CD26020132001D93C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA9C88AF2602012F001D93C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9C88B92602012F001D93C6 /* ContentView.swift in Sources */,
+				CA9C88B72602012F001D93C6 /* adIOS_amigIOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9C88C026020132001D93C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9C88C926020132001D93C6 /* adIOS_amigIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9C88CB26020132001D93C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9C88D426020132001D93C6 /* adIOS_amigIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA9C88C626020132001D93C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9C88B22602012F001D93C6 /* adIOS amigIOS */;
+			targetProxy = CA9C88C526020132001D93C6 /* PBXContainerItemProxy */;
+		};
+		CA9C88D126020132001D93C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9C88B22602012F001D93C6 /* adIOS amigIOS */;
+			targetProxy = CA9C88D026020132001D93C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA9C88D626020132001D93C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA9C88D726020132001D93C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA9C88D926020132001D93C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"adIOS amigIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = YN53T3D242;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "adIOS amigIOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adIOS-amigIOS.adIOS-amigIOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA9C88DA26020132001D93C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"adIOS amigIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = YN53T3D242;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "adIOS amigIOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adIOS-amigIOS.adIOS-amigIOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA9C88DC26020132001D93C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN53T3D242;
+				INFOPLIST_FILE = "adIOS amigIOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adIOS-amigIOS.adIOS-amigIOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adIOS amigIOS.app/adIOS amigIOS";
+			};
+			name = Debug;
+		};
+		CA9C88DD26020132001D93C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN53T3D242;
+				INFOPLIST_FILE = "adIOS amigIOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adIOS-amigIOS.adIOS-amigIOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adIOS amigIOS.app/adIOS amigIOS";
+			};
+			name = Release;
+		};
+		CA9C88DF26020132001D93C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN53T3D242;
+				INFOPLIST_FILE = "adIOS amigIOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adIOS-amigIOS.adIOS-amigIOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "adIOS amigIOS";
+			};
+			name = Debug;
+		};
+		CA9C88E026020132001D93C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN53T3D242;
+				INFOPLIST_FILE = "adIOS amigIOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adIOS-amigIOS.adIOS-amigIOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "adIOS amigIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA9C88AE2602012F001D93C6 /* Build configuration list for PBXProject "adIOS amigIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9C88D626020132001D93C6 /* Debug */,
+				CA9C88D726020132001D93C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9C88D826020132001D93C6 /* Build configuration list for PBXNativeTarget "adIOS amigIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9C88D926020132001D93C6 /* Debug */,
+				CA9C88DA26020132001D93C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9C88DB26020132001D93C6 /* Build configuration list for PBXNativeTarget "adIOS amigIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9C88DC26020132001D93C6 /* Debug */,
+				CA9C88DD26020132001D93C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9C88DE26020132001D93C6 /* Build configuration list for PBXNativeTarget "adIOS amigIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9C88DF26020132001D93C6 /* Debug */,
+				CA9C88E026020132001D93C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA9C88AB2602012F001D93C6 /* Project object */;
+}
