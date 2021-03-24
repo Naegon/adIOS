@@ -9,8 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("OUI")
-            .padding()
+        
+        let pomme: [Event] = [
+            Event(
+                startTime: "10H00",
+                endTime :"12H00",
+                title: "Math",
+                speaker: "Teller",
+                eventType: "Torture"),
+            Event(
+                startTime: "12H00",
+                endTime :"14H00",
+                title: "Physic",
+                speaker: "Adem",
+                eventType: "Worse"),
+            Event(
+                startTime: "14H00",
+                endTime :"16H00",
+                title: "IOS",
+                speaker: "Cousin",
+                eventType: "Best matière ever")]
+        
+        List(pomme) { event in
+            Cardview(event: event)
+        }
     }
 }
 

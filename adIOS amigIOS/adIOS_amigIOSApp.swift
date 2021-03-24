@@ -11,7 +11,7 @@ import SwiftUI
 struct adIOS_amigIOSApp: App {
     var body: some Scene {
         WindowGroup {
-            Cardview(card: Card.exemple)
+            ContentView()
         }
     }
 }

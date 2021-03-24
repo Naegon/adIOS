@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Cardview: View {
-    let card: Card
+    let event: Event
     
     var body: some View {
         ZStack {
@@ -17,10 +17,10 @@ struct Cardview: View {
                 .shadow(radius: 20)
             HStack {
                 VStack(alignment: .leading) {
-                    Text(card.event.startTime)
+                    Text(event.startTime)
                         .font(.body)
                         .foregroundColor(.black)
-                    Text(card.event.endTime)
+                    Text(event.endTime)
                         .font(.body)
                         .foregroundColor(.black)
                 }
@@ -29,25 +29,17 @@ struct Cardview: View {
                 Divider()
                 
                 VStack(alignment: .leading) {
-                    Text(card.event.title)
+                    Text(event.title)
                         .font(.title2)
                         .foregroundColor(.black)
                         .bold()
-                    Text(card.event.speaker)
+                    Text(event.speaker)
                         .font(.body)
                         .foregroundColor(.gray)
                 }
-                
-                ZStack {
-                    RoundedRectangle(cornerRadius: 50, style: .continuous)
-                        .fill(Color.blue)
-                        .frame(width: 128, height: 32, alignment: .topTrailing)
-                    
-                    Text(card.event.eventType)
-                        .font(.body)
-                        .foregroundColor(.white)
-                }
+                LabelType(type: event.eventType)
             }
+
         }
         .frame(height: 100)
         .padding(16)
@@ -57,8 +49,7 @@ struct Cardview: View {
 struct Cardview_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            Cardview(card: Card.exemple)
-            Cardview(card: Card.exemple)
+            Cardview(event: Event.example)
         }
     }
 }
