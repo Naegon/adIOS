@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct testView: View {
-    
     let event : Event
-    
+        
     var body: some View {
         VStack{
             Image("background")
@@ -18,7 +17,6 @@ struct testView: View {
                 .scaledToFit()
             Text(event.startTime)
             Text(event.endTime)
-            
         }
     }
 }
@@ -28,6 +26,5 @@ struct testView_Previews: PreviewProvider {
         NavigationView{
             testView(event: Event.example)
         }
-        
     }
 }
