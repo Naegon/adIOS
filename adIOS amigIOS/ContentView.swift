@@ -36,6 +36,15 @@ struct ContentView: View {
     }
 }
 
+struct ContentView: View {
+    @State var networkingManager: NetworkingManager
+    var body: some View {
+        List(networkingManager.EventList.result.identified(by :\.url)){
+            Event in Text(Event.starttime)
+        }
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
