@@ -1,0 +1,258 @@
+{
+  "records": [
+    {
+      "id": "rec2h6SsWsB0ijrNd",
+      "fields": {
+        "Activity": "Closing remarks",
+        "Start": "2021-11-19T16:00:00.000Z",
+        "Type": "Keynote",
+        "Speaker(s)": [
+          "recyOI1lvVVgkvXag"
+        ],
+        "Location": "Grand ballroom",
+        "Notes": "Expecting a lower turnout because it's the 2nd day",
+        "End": "2021-11-19T16:15:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:41:29.000Z"
+    },
+    {
+      "id": "rec31QbfjY330wWWE",
+      "fields": {
+        "Activity": "Welcome breakfast",
+        "Start": "2021-11-18T09:00:00.000Z",
+        "Type": "Meal",
+        "Location": "President's dining hall",
+        "End": "2021-11-18T10:30:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:17:58.000Z"
+    },
+    {
+      "id": "rec6H2E3sdfveRvOZ",
+      "fields": {
+        "Activity": "Morning keynote",
+        "Start": "2021-11-19T09:30:00.000Z",
+        "Type": "Keynote",
+        "Speaker(s)": [
+          "recTyiqbHQMqXuULx",
+          "recYLDgtgYaH3YS6e"
+        ],
+        "Location": "Grand ballroom",
+        "End": "2021-11-19T10:30:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:36:46.000Z"
+    },
+    {
+      "id": "rec954Vhqu7WdfHmX",
+      "fields": {
+        "Activity": "Breakout presentation",
+        "Start": "2021-11-19T14:30:00.000Z",
+        "Type": "Breakout session",
+        "Location": "Ruby room",
+        "Notes": "Will be an open happy hour",
+        "End": "2021-11-19T15:00:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:36:48.000Z"
+    },
+    {
+      "id": "recFTdwwpgfEnJ7vd",
+      "fields": {
+        "Activity": "Opening remarks",
+        "Start": "2021-11-18T10:30:00.000Z",
+        "Type": "Keynote",
+        "Speaker(s)": [
+          "recyOI1lvVVgkvXag"
+        ],
+        "Location": "Grand ballroom",
+        "Notes": "Katina is subbing in for Russell, because he's coming in on a flight",
+        "End": "2021-11-18T11:00:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:17:58.000Z"
+    },
+    {
+      "id": "recGuvcsXzgyZhfU3",
+      "fields": {
+        "Activity": "Breakout session",
+        "Start": "2021-11-18T14:30:00.000Z",
+        "Type": "Breakout session",
+        "Location": "Sapphire room",
+        "End": "2021-11-18T15:20:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:36:46.000Z"
+    },
+    {
+      "id": "recH6czCGaEoQaYUm",
+      "fields": {
+        "Activity": "Breakfast",
+        "Start": "2021-11-19T09:00:00.000Z",
+        "Type": "Meal",
+        "Speaker(s)": [
+          "recGIJN83mYU0F1ka",
+          "recMi0aBxblGN4hit"
+        ],
+        "Location": "President's dining hall",
+        "Notes": "Belinda's going to need a projector for her presentation",
+        "End": "2021-11-19T09:30:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:36:46.000Z"
+    },
+    {
+      "id": "recLbwVlhOhmqaNDT",
+      "fields": {
+        "Activity": "The successes of home security technology",
+        "Start": "2021-11-19T11:00:00.000Z",
+        "Type": "Panel",
+        "Location": "Pearl room",
+        "Notes": "Make sure that post-its are available for everyone at the start of the session",
+        "End": "2021-11-19T12:00:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:36:48.000Z"
+    },
+    {
+      "id": "recMrkjBVFiDnK8jY",
+      "fields": {
+        "Activity": "Community building workshop",
+        "Start": "2021-11-19T13:20:00.000Z",
+        "Type": "Workshop",
+        "Speaker(s)": [
+          "recYLDgtgYaH3YS6e"
+        ],
+        "Location": "Emerald room",
+        "End": "2021-11-19T14:00:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:36:48.000Z"
+    },
+    {
+      "id": "recQWPx6kzPFgyMSF",
+      "fields": {
+        "Activity": "Building an alert system that works for everyone",
+        "Start": "2021-11-18T11:00:00.000Z",
+        "Type": "Panel",
+        "Speaker(s)": [
+          "recXMxFZVNJxiyIEz"
+        ],
+        "Location": "Sapphire room",
+        "End": "2021-11-18T12:00:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:17:58.000Z"
+    },
+    {
+      "id": "recWWndFT0qtHiwtL",
+      "fields": {
+        "Activity": "Which security solution is best for you?",
+        "Start": "2021-11-18T13:00:00.000Z",
+        "Type": "Panel",
+        "Speaker(s)": [
+          "recGIJN83mYU0F1ka",
+          "recTyiqbHQMqXuULx",
+          "recp4hqM1LmXfrsgL"
+        ],
+        "Location": "Emerald room",
+        "End": "2021-11-18T13:30:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:36:45.000Z"
+    },
+    {
+      "id": "recdaHjZM341lbHsA",
+      "fields": {
+        "Activity": "Happy hour & networking",
+        "Start": "2021-11-18T16:00:00.000Z",
+        "Type": "Networking",
+        "Location": "President's dining hall",
+        "Notes": "We'll have vegetarian and pescatarian friendly meals available!",
+        "End": "2021-11-18T17:00:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:36:46.000Z"
+    },
+    {
+      "id": "recfYw41aGgRyzZS6",
+      "fields": {
+        "Activity": "Lunch",
+        "Start": "2021-11-19T12:00:00.000Z",
+        "Type": "Meal",
+        "Location": "President's dining hall",
+        "End": "2021-11-19T13:00:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:40:35.000Z"
+    },
+    {
+      "id": "reci9W93jF5nEzrrs",
+      "fields": {
+        "Activity": "Lunch",
+        "Start": "2021-11-18T12:00:00.000Z",
+        "Type": "Meal",
+        "Speaker(s)": [
+          "recYLDgtgYaH3YS6e"
+        ],
+        "Location": "President's dining hall",
+        "End": "2021-11-18T12:30:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:36:45.000Z"
+    },
+    {
+      "id": "recjT1fMtAF0FUkz0",
+      "fields": {
+        "Activity": "Case study: Home SecurTech",
+        "Start": "2021-11-19T14:00:00.000Z",
+        "Type": "Panel",
+        "Speaker(s)": [
+          "recyOI1lvVVgkvXag"
+        ],
+        "Location": "\"Garnet room, Jade room\"",
+        "End": "2021-11-19T14:30:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:36:49.000Z"
+    },
+    {
+      "id": "recjwMRqvvbVh7DcF",
+      "fields": {
+        "Activity": "Afternoon keynote",
+        "Start": "2021-11-19T15:00:00.000Z",
+        "Type": "Keynote",
+        "Location": "Grand ballroom",
+        "End": "2021-11-19T16:00:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:36:49.000Z"
+    },
+    {
+      "id": "reckZ690OMCof4zTD",
+      "fields": {
+        "Activity": "Happy hour & networking",
+        "Start": "2021-11-19T16:30:00.000Z",
+        "Type": "Networking",
+        "Speaker(s)": [
+          "recp4hqM1LmXfrsgL"
+        ],
+        "Location": "President's dining hall",
+        "End": "2021-11-19T17:30:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:41:29.000Z"
+    },
+    {
+      "id": "rectT3lN6jyIXG3K2",
+      "fields": {
+        "Activity": "Closing remarks",
+        "Start": "2021-11-18T15:30:00.000Z",
+        "Type": "Keynote",
+        "Location": "Grand ballroom",
+        "End": "2021-11-18T16:00:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:36:46.000Z"
+    },
+    {
+      "id": "recu6Afzq64bNQQzB",
+      "fields": {
+        "Activity": "Workshop for security novices",
+        "Start": "2021-11-18T12:30:00.000Z",
+        "Type": "Workshop",
+        "Speaker(s)": [
+          "recMi0aBxblGN4hit",
+          "recIjFZoOyAMMWm5q"
+        ],
+        "Location": "Emerald room",
+        "Notes": "This session will be led by Deepa",
+        "End": "2021-11-18T13:00:00.000Z"
+      },
+      "createdTime": "2016-10-30T21:36:45.000Z"
+    }
+  ]
+}
