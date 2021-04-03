@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
         let pomme: [Event] = [
             Event(
                 startTime: "10H00",
@@ -30,17 +29,13 @@ struct ContentView: View {
                 speaker: "Cousin",
                 eventType: "Best matière ever")]
         
-        List(pomme) { event in
-            Cardview(event: event)
-        }
-    }
-}
-
-struct ContentView: View {
-    @State var networkingManager: NetworkingManager
-    var body: some View {
-        List(networkingManager.EventList.result.identified(by :\.url)){
-            Event in Text(Event.starttime)
+        NavigationView {
+            List(pomme) { event in
+                ZStack {
+                    Cardview(event: event)
+                    NavigationLink(destination: EventPage(event: event), label: {}).opacity(0)
+                }
+            }
         }
     }
 }

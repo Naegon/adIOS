@@ -9,8 +9,8 @@ import Foundation
 
  
 
-/*struct Event: Identifiable, Decodable{
-    let id = UUID()
+struct Event: Identifiable, Decodable{
+    var id = UUID()
     
     let startTime : String
     let endTime : String
@@ -24,5 +24,5 @@ import Foundation
 struct EventAPIList : Decodable{
     var records : [Event]
 }
-*/
+
 

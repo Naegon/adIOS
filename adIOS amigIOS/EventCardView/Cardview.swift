@@ -40,7 +40,6 @@ struct Cardview: View {
                 }
                 LabelType(type: event.eventType)
             }
-
         }
         .frame(height: 100)
         .padding(16)
