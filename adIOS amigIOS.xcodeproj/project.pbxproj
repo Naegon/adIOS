@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D0EB04326189081006BDD5F /* JSONDATA.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D0EB04226189081006BDD5F /* JSONDATA.txt */; };
-		8D0EB048261890BD006BDD5F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EB047261890BD006BDD5F /* DataService.swift */; };
-		8D0EB04D261895A5006BDD5F /* RecordsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EB04C261895A5006BDD5F /* RecordsResponse.swift */; };
-		8D0EB05226189634006BDD5F /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EB05126189634006BDD5F /* Records.swift */; };
-		8D0EB057261896D9006BDD5F /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EB056261896D9006BDD5F /* Fields.swift */; };
 		CA9C88B72602012F001D93C6 /* adIOS_amigIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C88B62602012F001D93C6 /* adIOS_amigIOSApp.swift */; };
 		CA9C88B92602012F001D93C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C88B82602012F001D93C6 /* ContentView.swift */; };
 		CA9C88BB26020131001D93C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9C88BA26020131001D93C6 /* Assets.xcassets */; };
@@ -43,11 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8D0EB04226189081006BDD5F /* JSONDATA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JSONDATA.txt; sourceTree = "<group>"; };
-		8D0EB047261890BD006BDD5F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		8D0EB04C261895A5006BDD5F /* RecordsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsResponse.swift; sourceTree = "<group>"; };
-		8D0EB05126189634006BDD5F /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
-		8D0EB056261896D9006BDD5F /* Fields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
 		CA9C88B32602012F001D93C6 /* adIOS amigIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "adIOS amigIOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9C88B62602012F001D93C6 /* adIOS_amigIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adIOS_amigIOSApp.swift; sourceTree = "<group>"; };
 		CA9C88B82602012F001D93C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,18 +82,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8D0EB03126188E4E006BDD5F /* JSONDataRetreiver */ = {
-			isa = PBXGroup;
-			children = (
-				8D0EB04226189081006BDD5F /* JSONDATA.txt */,
-				8D0EB047261890BD006BDD5F /* DataService.swift */,
-				8D0EB04C261895A5006BDD5F /* RecordsResponse.swift */,
-				8D0EB05126189634006BDD5F /* Records.swift */,
-				8D0EB056261896D9006BDD5F /* Fields.swift */,
-			);
-			path = JSONDataRetreiver;
-			sourceTree = "<group>";
-		};
 		CA9C88AA2602012F001D93C6 = {
 			isa = PBXGroup;
 			children = (
@@ -127,7 +105,6 @@
 		CA9C88B52602012F001D93C6 /* adIOS amigIOS */ = {
 			isa = PBXGroup;
 			children = (
-				8D0EB03126188E4E006BDD5F /* JSONDataRetreiver */,
 				E4713C85260B3CA900D081D8 /* EventCardView */,
 				CA9C88B62602012F001D93C6 /* adIOS_amigIOSApp.swift */,
 				CA9C88B82602012F001D93C6 /* ContentView.swift */,
@@ -279,7 +256,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D0EB04326189081006BDD5F /* JSONDATA.txt in Resources */,
 				CA9C88BE26020131001D93C6 /* Preview Assets.xcassets in Resources */,
 				CA9C88BB26020131001D93C6 /* Assets.xcassets in Resources */,
 			);
@@ -306,17 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D0EB057261896D9006BDD5F /* Fields.swift in Sources */,
 				E4713C81260B2AD200D081D8 /* Cardview.swift in Sources */,
 				E4713C8A260B3CE900D081D8 /* LabelType.swift in Sources */,
 				CA9C88ED260212C5001D93C6 /* Event.swift in Sources */,
-				8D0EB04D261895A5006BDD5F /* RecordsResponse.swift in Sources */,
 				CA9C88B92602012F001D93C6 /* ContentView.swift in Sources */,
 				CA9C88B72602012F001D93C6 /* adIOS_amigIOSApp.swift in Sources */,
 				CA9C88E8260208EF001D93C6 /* testView.swift in Sources */,
 				E2AE1A9B2614599E00667265 /* NetworkingManager.swift in Sources */,
-				8D0EB05226189634006BDD5F /* Records.swift in Sources */,
-				8D0EB048261890BD006BDD5F /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

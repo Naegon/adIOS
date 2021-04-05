@@ -4,8 +4,9 @@
 //
 //  Created by Guillaume Hamel on 24/03/2021.
 //
-
+import Foundation
 import SwiftUI
+
 
 struct Cardview: View {
     let event: Event
