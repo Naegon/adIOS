@@ -23,40 +23,36 @@
        "createdTime": "2016-10-30T21:41:29.000Z"
      },
  */
+
+
 import Foundation
-
-struct Event : Codable {
-    var id : String
-    var fields : Fields
-    var createdTime : String
-    enum CodingKeys: String,CodingKey {
-        case id = "id"
-        case fields = "fields"
-        case createdTime = "createdTime"
-    }
+// MARK: - Welcome
+struct Welcome: Codable {
+    let records: [Record]
 }
 
-struct Fields : Codable{
-    var Activity: String
-    var Start : String
-    var type : String
-    var Speakers: [String]?
-    var Location : String
-    var Notes : String
-    var End : String
-    enum CodingKeys:String, CodingKey {
-        case Activity = "Activity"
-        case Start = "Start"
+// MARK: - Record
+struct Record: Codable {
+    let id: String
+    let fields: Fields
+    let createdTime: String
+}
+
+// MARK: - Fields
+struct Fields: Codable {
+    let activity, start, type: String
+    let speakerS: [String]?
+    let location: String
+    let notes: String?
+    let end: String
+
+    enum CodingKeys: String, CodingKey {
+        case activity = "Activity"
+        case start = "Start"
         case type = "Type"
-        case Speakers = "Speaker(s)"
-        case Location = "Location"
-        case Notes = "Notes"
-        case End = "End"
+        case speakerS = "Speaker(s)"
+        case location = "Location"
+        case notes = "Notes"
+        case end = "End"
     }
 }
-struct Response : Codable {
-    var Events : [Event]
-}
-
-
-

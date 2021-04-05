@@ -9,24 +9,32 @@ import Foundation
 import SwiftUI
 import Combine
 
+
 class NetworkingManager {
-    var didchange = PassthroughSubject<NetworkingManager,Never>()
-    var EventList = Response(Events: [])
-    {
-        didSet{
-            didchange.send(self)
-        }
-    }
+    var EventList : Welcome
     
     init(){
-        guard let url = URL(string:"https://api.airtable.com/v0/appFNA7TTiTELt8Dh/%F0%9F%93%86%20Schedule?api_key=keyAviolHRTfDJ7dd") else {return} //API URL
-        URLSession.shared.dataTask(with: url){(data, response, error) in
-            guard let data = data else {return}
-            
-            let EventList = try! JSONDecoder().decode(Response.self, from: data)
-            DispatchQueue.main.async {
-                self.EventList = EventList
+        let url = "https://api.airtable.com/v0/appFNA7TTiTELt8Dh/%F0%9F%93%86%20Schedule?api_key=keyAviolHRTfDJ7dd"
+        let task = URLSession.shared.dataTask(with: URL(string: url)!, completionHandler: { data, response, error in
+            guard let data = data, error == nil else{
+                print("error")
+                return
             }
-        }.resume()
-    }
+            //hava data
+
+            do{
+                self.EventList = try JSONDecoder().decode(Welcome.self, from: data)
+                self.EventList.records[0].fields.activity
+
+            }
+            catch{
+                print("fail (error.localizedDescription)")
+            }
+
+
+        })
+
+        task.resume()}
 }
+
+
