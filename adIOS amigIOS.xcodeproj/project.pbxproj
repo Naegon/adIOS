@@ -13,7 +13,6 @@
 		CA9C88BE26020131001D93C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9C88BD26020131001D93C6 /* Preview Assets.xcassets */; };
 		CA9C88C926020132001D93C6 /* adIOS_amigIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C88C826020132001D93C6 /* adIOS_amigIOSTests.swift */; };
 		CA9C88D426020132001D93C6 /* adIOS_amigIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C88D326020132001D93C6 /* adIOS_amigIOSUITests.swift */; };
-		CA9C88E8260208EF001D93C6 /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C88E7260208EF001D93C6 /* testView.swift */; };
 		CA9C88ED260212C5001D93C6 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C88EC260212C5001D93C6 /* Event.swift */; };
 		E2AE1A9B2614599E00667265 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE1A9A2614599E00667265 /* NetworkingManager.swift */; };
 		E4713C81260B2AD200D081D8 /* Cardview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4713C80260B2AD200D081D8 /* Cardview.swift */; };
@@ -50,7 +49,6 @@
 		CA9C88CF26020132001D93C6 /* adIOS amigIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "adIOS amigIOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9C88D326020132001D93C6 /* adIOS_amigIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adIOS_amigIOSUITests.swift; sourceTree = "<group>"; };
 		CA9C88D526020132001D93C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA9C88E7260208EF001D93C6 /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
 		CA9C88EC260212C5001D93C6 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		E2AE1A9A2614599E00667265 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		E4713C80260B2AD200D081D8 /* Cardview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardview.swift; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 				CA9C88BA26020131001D93C6 /* Assets.xcassets */,
 				CA9C88BF26020131001D93C6 /* Info.plist */,
 				CA9C88BC26020131001D93C6 /* Preview Content */,
-				CA9C88E7260208EF001D93C6 /* testView.swift */,
 			);
 			path = "adIOS amigIOS";
 			sourceTree = "<group>";
@@ -287,7 +284,6 @@
 				CA9C88ED260212C5001D93C6 /* Event.swift in Sources */,
 				CA9C88B92602012F001D93C6 /* ContentView.swift in Sources */,
 				CA9C88B72602012F001D93C6 /* adIOS_amigIOSApp.swift in Sources */,
-				CA9C88E8260208EF001D93C6 /* testView.swift in Sources */,
 				E2AE1A9B2614599E00667265 /* NetworkingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

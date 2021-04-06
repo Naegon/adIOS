@@ -9,8 +9,8 @@ import SwiftUI
 
 
 struct Cardview: View {
-    let event: Event
-    
+    @State var networkingManager = NetworkingManager()
+
     
     var body: some View {
         ZStack {
@@ -19,10 +19,10 @@ struct Cardview: View {
                 .shadow(radius: 20)
             HStack {
                 VStack(alignment: .leading) {
-                    Text(event.startTime)
+                    Text(networkingManager.EventList.records[0].fields.start)
                         .font(.body)
                         .foregroundColor(.black)
-                    Text(event.endTime)
+                    Text(networkingManager.EventList.records[0].fields.end)
                         .font(.body)
                         .foregroundColor(.black)
                 }
@@ -31,15 +31,11 @@ struct Cardview: View {
                 Divider()
                 
                 VStack(alignment: .leading) {
-                    Text(event.title)
+                    Text(networkingManager.EventList.records[0].fields.activity)
                         .font(.title2)
                         .foregroundColor(.black)
                         .bold()
-                    Text(event.speaker)
-                        .font(.body)
-                        .foregroundColor(.gray)
                 }
-                LabelType(type: event.eventType)
             }
 
         }
@@ -51,7 +47,7 @@ struct Cardview: View {
 struct Cardview_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            Cardview(event: Event.example)
+            Cardview()
         }
     }
 }

@@ -11,20 +11,18 @@ import Combine
 
 
 class NetworkingManager {
-    var EventList : Welcome
+    var eventList : Welcome
     
     init(){
         let url = "https://api.airtable.com/v0/appFNA7TTiTELt8Dh/%F0%9F%93%86%20Schedule?api_key=keyAviolHRTfDJ7dd"
-        let task = URLSession.shared.dataTask(with: URL(string: url)!, completionHandler: { data, response, error in
+        let task = URLSession.shared.dataTask(with: URL(string: url)!, completionHandler: { (data,response ,error)  in
             guard let data = data, error == nil else{
                 print("error")
                 return
             }
             //hava data
-
             do{
-                self.EventList = try JSONDecoder().decode(Welcome.self, from: data)
-                self.EventList.records[0].fields.activity
+                self.eventList = try JSONDecoder().decode(Welcome.self, from: data)
 
             }
             catch{
@@ -34,7 +32,8 @@ class NetworkingManager {
 
         })
 
-        task.resume()}
+        task.resume()
+    }
 }
 
 

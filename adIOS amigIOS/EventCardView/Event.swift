@@ -28,23 +28,23 @@
 import Foundation
 // MARK: - Welcome
 struct Welcome: Codable {
-    let records: [Record]
+    var records: [Record]
 }
 
 // MARK: - Record
 struct Record: Codable {
-    let id: String
-    let fields: Fields
-    let createdTime: String
+    var id: String
+    var fields: Fields
+    var createdTime: String
 }
 
 // MARK: - Fields
 struct Fields: Codable {
-    let activity, start, type: String
-    let speakerS: [String]?
-    let location: String
-    let notes: String?
-    let end: String
+    var activity, start, type: String
+    var speakerS: [String]?
+    var location: String
+    var notes: String?
+    var end: String
 
     enum CodingKeys: String, CodingKey {
         case activity = "Activity"

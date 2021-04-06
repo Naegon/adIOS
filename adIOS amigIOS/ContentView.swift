@@ -10,9 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State var networkingManager = NetworkingManager()
     var body: some View {
-        List(networkingManager.EventList.Events.identified(by:\.url)){
-            event in Text(event)
-        }
+        Text(networkingManager.eventList.records[0].fields.activity)
         
     }
 
@@ -22,7 +20,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
+}
 /*let pomme: [Event] = [
     Event(
         startTime: "10H00",
