@@ -23,26 +23,15 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-/*let pomme: [Event] = [
-    Event(
-        startTime: "10H00",
-        endTime :"12H00",
-        title: "Math",
-        speaker: "Teller",
-        eventType: "Torture"),
-    Event(
-        startTime: "12H00",
-        endTime :"14H00",
-        title: "Physic",
-        speaker: "Adem",
-        eventType: "Worse"),
-    Event(
-        startTime: "14H00",
-        endTime :"16H00",
-        title: "IOS",
-        speaker: "Cousin",
-        eventType: "Best matière ever")]
 
-List(pomme) { event in
-    Cardview(event: event)
-}*/
+    let JSON : String = """
+    {
+    "records":[{"id":"rec2h6SsWsB0ijrNd","fields":{"Speaker(s)":["recyOI1lvVVgkvXag"],"Start":"2021-11-19T16:00:00.000Z","Location":"Grand ballroom","Notes":"Expecting a lower turnout because it's the 2nd day","End":"2021-11-19T16:15:00.000Z","Activity":"Closing remarks","Type":"Keynote"},"createdTime":"2016-10-30T21:41:29.000Z"}]
+    }
+    """
+
+    let jsonData = JSON.data(using: .utf8)!
+
+    let event: Event = try! JSONDecoder().decode(Event.self, from: jsonData)
+    
+}

@@ -25,10 +25,10 @@
  */
 import Foundation
 
-struct Event : Codable {
-    var id : String
-    var fields : Fields
-    var createdTime : String
+struct Event : Decodable {
+    let id : String
+    let fields : Fields
+    let createdTime : String
     enum CodingKeys: String,CodingKey {
         case id = "id"
         case fields = "fields"
@@ -36,14 +36,14 @@ struct Event : Codable {
     }
 }
 
-struct Fields : Codable{
-    var Activity: String
-    var Start : String
-    var type : String
-    var Speakers: [String]?
-    var Location : String
-    var Notes : String
-    var End : String
+struct Fields : Decodable{
+    let Activity: String
+    let Start : String
+    let type : String
+    let Speakers: [String]?
+    let Location : String
+    let Notes : String
+    let End : String
     enum CodingKeys:String, CodingKey {
         case Activity = "Activity"
         case Start = "Start"
@@ -54,9 +54,8 @@ struct Fields : Codable{
         case End = "End"
     }
 }
-struct Response : Codable {
-    var Events : [Event]
+
+struct Response : Decodable {
+    let Events : [Event]
 }
-
-
 
