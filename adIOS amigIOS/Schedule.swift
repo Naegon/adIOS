@@ -5,7 +5,7 @@ struct Schedule: Codable {
 }
 
 // MARK: - Record
-struct Record: Codable {
+struct Record: Codable, Identifiable {
     var id: String
     var fields: Fields
     var createdTime: String
