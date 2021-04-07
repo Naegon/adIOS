@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var networkingManager = NetworkingManager()
+    
     var body: some View {
+//        Text(networkingManager)
+        
         let pomme: [Event] = [
             Event(
                 startTime: "10H00",
@@ -28,6 +32,7 @@ struct ContentView: View {
                 title: "IOS",
                 speaker: "Cousin",
                 eventType: "Best matière ever")]
+        
         
         NavigationView {
             List(pomme) { event in

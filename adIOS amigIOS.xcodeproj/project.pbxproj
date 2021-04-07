@@ -15,6 +15,8 @@
 		CA9C88D426020132001D93C6 /* adIOS_amigIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C88D326020132001D93C6 /* adIOS_amigIOSUITests.swift */; };
 		CA9C88E8260208EF001D93C6 /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C88E7260208EF001D93C6 /* testView.swift */; };
 		CA9C88ED260212C5001D93C6 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C88EC260212C5001D93C6 /* Event.swift */; };
+		E467BAC8261D917900F66708 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E467BAC7261D917900F66708 /* Schedule.swift */; };
+		E467BACD261D949C00F66708 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E467BACC261D949C00F66708 /* NetworkingManager.swift */; };
 		E4713C81260B2AD200D081D8 /* Cardview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4713C80260B2AD200D081D8 /* Cardview.swift */; };
 		E4713C8A260B3CE900D081D8 /* LabelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4713C89260B3CE900D081D8 /* LabelType.swift */; };
 		E4741D772618CE4700090529 /* EventPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4741D762618CE4700090529 /* EventPage.swift */; };
@@ -52,6 +54,8 @@
 		CA9C88D526020132001D93C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA9C88E7260208EF001D93C6 /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
 		CA9C88EC260212C5001D93C6 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		E467BAC7261D917900F66708 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		E467BACC261D949C00F66708 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		E4713C80260B2AD200D081D8 /* Cardview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardview.swift; sourceTree = "<group>"; };
 		E4713C89260B3CE900D081D8 /* LabelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelType.swift; sourceTree = "<group>"; };
 		E4741D762618CE4700090529 /* EventPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPage.swift; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 				CA9C88BC26020131001D93C6 /* Preview Content */,
 				CA9C88E7260208EF001D93C6 /* testView.swift */,
 				E4741D762618CE4700090529 /* EventPage.swift */,
+				E467BAC7261D917900F66708 /* Schedule.swift */,
+				E467BACC261D949C00F66708 /* NetworkingManager.swift */,
 			);
 			path = "adIOS amigIOS";
 			sourceTree = "<group>";
@@ -286,7 +292,9 @@
 				E4741D772618CE4700090529 /* EventPage.swift in Sources */,
 				E4713C8A260B3CE900D081D8 /* LabelType.swift in Sources */,
 				CA9C88ED260212C5001D93C6 /* Event.swift in Sources */,
+				E467BAC8261D917900F66708 /* Schedule.swift in Sources */,
 				CA9C88B92602012F001D93C6 /* ContentView.swift in Sources */,
+				E467BACD261D949C00F66708 /* NetworkingManager.swift in Sources */,
 				CA9C88B72602012F001D93C6 /* adIOS_amigIOSApp.swift in Sources */,
 				CA9C88E8260208EF001D93C6 /* testView.swift in Sources */,
 			);
