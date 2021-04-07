@@ -7,11 +7,13 @@ struct Schedule: Codable {
 // MARK: - Record
 struct Record: Codable {
     var id: String
-//    var fields: Fields
-//    var createdTime: String
-//    enum CodingKeys: String,CodingKey {
-//        case id = "id"
-//    }
+    var fields: Fields
+    var createdTime: String
+    enum CodingKeys: String, CodingKey {
+        case id = "id"
+        case fields = "fields"
+        case createdTime = "createdTime"
+    }
 }
 
 // MARK: - Fields
