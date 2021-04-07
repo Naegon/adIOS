@@ -35,8 +35,9 @@ struct EventPage: View {
                 .frame(height: 50)
                 .background(RoundedRectangle(cornerRadius: 16, style: .continuous)
                     .fill(Color.white)
-                    .shadow(radius: 20)
+                    .shadow(radius: 10)
                 )
+                .padding(10)
                 
                 
                 HStack {
@@ -60,19 +61,51 @@ struct EventPage: View {
                         .shadow(radius: 20)
                     )
                     
-                    ZStack(alignment: .leading) {
-                        RoundedRectangle(cornerRadius: 16, style: .continuous)
-                            .fill(Color.white)
-                            .shadow(radius: 20)
+                    VStack(alignment: .center) {
+                        
                         Text(event.title)
                             .font(.title)
                             .foregroundColor(.black)
                             .multilineTextAlignment(.leading)
+                        Text("30 avenue de la Paix")
+                            .font(.body)
+                            .foregroundColor(.gray)
+                            .multilineTextAlignment(.leading)
                     }
                     .frame(height: 70)
+                    .background(RoundedRectangle(cornerRadius: 16, style: .continuous)
+                                    .fill(Color.white)
+                                    .shadow(radius: 20))
+                }
+                .padding(10)
+                
+                HStack {
+                    VStack(alignment: .center) {
+                        
+                        Text("Speaker name")
+                            .font(.title3)
+                            .foregroundColor(.black)
+                        Text("CEO at compagny")
+                            .font(.body)
+                            .foregroundColor(.gray)
+                        Text("Email : myemail@email.com")
+                            .font(.body)
+                            .foregroundColor(.black)
+                            .multilineTextAlignment(.leading)
+                        Text("Phone : +(33)4578974979")
+                            .font(.body)
+                            .foregroundColor(.black)
+                            .multilineTextAlignment(.leading)
+                    }
+                    .frame(height: 90)
+                    .background(
+                        RoundedRectangle(cornerRadius: 16, style: .continuous)
+                        .fill(Color.white)
+                        .shadow(radius: 20)
+                    )
                 }
             }
-            .padding(16)
+            .padding(10)
         }
         .edgesIgnoringSafeArea(.all) // 3
     }
