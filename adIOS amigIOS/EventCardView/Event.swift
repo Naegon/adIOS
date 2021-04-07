@@ -18,7 +18,7 @@ struct Event: Identifiable, Decodable{
     let speaker : String
     let eventType : String
     
-    static let example = Event(startTime: "14H00",endTime :"16H00", title: "Swimming pool", speaker: "Todd", eventType: "Label")
+    static let example = Event(startTime: "07/04/2021 14H00",endTime :"07/04/2021 16H00", title: "Swimming pool", speaker: "Todd", eventType: "Label")
 }
 
 struct EventAPIList : Decodable{

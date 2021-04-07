@@ -21,33 +21,44 @@ struct EventPage: View {
             }.frame(height: 300)
             
             VStack {
-                ZStack(alignment: .leading) {
-                    RoundedRectangle(cornerRadius: 16, style: .continuous)
-                        .fill(Color.white)
-                        .shadow(radius: 20)
-                    Text(event.title + " with " + event.speaker)
+                HStack(alignment: .center) {
+                    Text(event.title)
+                        .font(.title)
+                        .bold()
+                        .foregroundColor(.black)
+                        .multilineTextAlignment(.leading)
+                    Text("with " + event.speaker)
                         .font(.title)
                         .foregroundColor(.black)
                         .multilineTextAlignment(.leading)
                 }
                 .frame(height: 50)
+                .background(RoundedRectangle(cornerRadius: 16, style: .continuous)
+                    .fill(Color.white)
+                    .shadow(radius: 20)
+                )
+                
                 
                 HStack {
-                    ZStack(alignment: .center) {
-                        RoundedRectangle(cornerRadius: 16, style: .continuous)
-                            .fill(Color.white)
-                            .shadow(radius: 20)
+                    VStack(alignment: .center) {
+                        
                         Text("Date & Time")
                             .font(.title3)
                             .foregroundColor(.black)
                         Text(event.startTime)
-                            .font(.title)
+                            .font(.body)
                             .foregroundColor(.blue)
                         Text(event.endTime)
-                            .font(.title)
+                            .font(.body)
                             .foregroundColor(.blue)
+                            .multilineTextAlignment(.leading)
                     }
-                    .frame(height: 50)
+                    .frame(width :160,height: 70)
+                    .background(
+                        RoundedRectangle(cornerRadius: 16, style: .continuous)
+                        .fill(Color.white)
+                        .shadow(radius: 20)
+                    )
                     
                     ZStack(alignment: .leading) {
                         RoundedRectangle(cornerRadius: 16, style: .continuous)
@@ -58,7 +69,7 @@ struct EventPage: View {
                             .foregroundColor(.black)
                             .multilineTextAlignment(.leading)
                     }
-                    .frame(height: 50)
+                    .frame(height: 70)
                 }
             }
             .padding(16)
